@@ -42,7 +42,7 @@ def monitor_distance_and_trigger():
                     print(f"[Arduino] 距離: {distance} cm")
 
                     if distance < 100 and not already_triggered:
-                        print("[Action] 100cm未満！turnOn を実行")
+                        print("[Action] 100cm未満 turnOn を実行")
                         send_switchbot_turn_on()
                         already_triggered = True
 
