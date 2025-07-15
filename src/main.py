@@ -2,8 +2,8 @@ import serial
 import requests
 import time
 
-# シリアルポート設定（環境に応じて変更）
-SERIAL_PORT = '/dev/cu.usbmodem11101'  # Windowsなら 'COM3' など
+# シリアルポート設定
+SERIAL_PORT = '/dev/cu.usbmodem11101'
 BAUD_RATE = 9600
 
 # トークン・デバイスID読み込み
